@@ -1,7 +1,6 @@
 import {
     BrowserRouter as Router,
-    Route,
-    Routes
+    Route
   } from "react-router-dom";
   import Bakery from "./components/Bakery";
   
@@ -12,10 +11,7 @@ import {
   export function App(): JSX.Element {
     return (
       <Router>
-        <Routes>
-          <Route path="/" Component={() => <Bakery />} />
-
-        </Routes>
+          <Route path="/" component={() => <Bakery />} />
       </Router>
   
     )

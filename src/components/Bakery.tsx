@@ -12,7 +12,7 @@ function Bakery(): JSX.Element {
     const dispatch = useDispatch();
     const theme = createTheme();
     useEffect(() => {
-    //   dispatch(getItems());
+    dispatch(getItems());
     }, [currentId, dispatch]);
   
     return (

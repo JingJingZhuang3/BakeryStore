@@ -59,7 +59,7 @@ const BoxItem: React.FC<Props> = ({ post, setCurrentId }: Props) => {
                     sx={{ mr: 3 }}
                     size="small"
                     color="primary"
-                    onClick={() => null/*dispatch(deleteItem(post.id))*/}>
+                    onClick={() => dispatch(deleteItem(post.id))}>
                     <DeleteIcon fontSize="small" /> Delete
                   </Button>
                   <Button

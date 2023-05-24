@@ -47,13 +47,13 @@ const CreateForm: React.FC<Props> = ({ currentId, setCurrentId }: Props) => {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    // if (currentId === '') {
-    //   dispatch(createItem(postData));
-    //   clear();
-    // } else {
-    //   dispatch(updateItem(currentId, postData));
-    //   clear();
-    // }
+    if (currentId === '') {
+      dispatch(createItem(postData));
+      clear();
+    } else {
+      dispatch(updateItem(currentId, postData));
+      clear();
+    }
   }
 
   return (

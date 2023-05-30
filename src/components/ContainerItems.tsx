@@ -12,6 +12,7 @@ const ContainerItems: React.FC<Props> = ({ setCurrentId }: Props) => {
   const items = useSelector((state: ReturnType<typeof itemsReducer>) => state.items);
 
   return (
+    // CircularProgress - loading icon
     !items.length ? <CircularProgress /> : (
       <Grid container spacing={3}>
         {items.map((item: ReturnType<typeof itemsReducer>) => (

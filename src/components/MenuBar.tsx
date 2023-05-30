@@ -10,7 +10,7 @@ import {
   import MenuIcon from '@mui/icons-material/Menu';
   
   function MenuBar(): JSX.Element {
-  
+    // initialize MenuBar theme
     const darkTheme = createTheme({
       palette: {
         mode: 'dark',

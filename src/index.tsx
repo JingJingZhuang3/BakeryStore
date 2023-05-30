@@ -24,6 +24,7 @@ mergeStyles({
 const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(
+  //The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
   <Provider store={store}>
     <App />
   </Provider>,

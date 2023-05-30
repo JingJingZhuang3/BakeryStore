@@ -57,7 +57,7 @@ const CreateForm: React.FC<Props> = ({ currentId, setCurrentId }: Props) => {
   }
 
   return (
-    <Paper >
+    <Paper sx={{padding:1}}>
       <form
         autoComplete="off"
         noValidate
@@ -71,7 +71,7 @@ const CreateForm: React.FC<Props> = ({ currentId, setCurrentId }: Props) => {
           variant="outlined"
           label="Title"
           fullWidth
-          sx={{ mt: 5 }}
+          sx={{ mt: 1 }}
           value={postData.title}
           onChange={(e: any) => setItemData({ ...postData, title: e.target.value })}
         />

@@ -14,7 +14,7 @@ export default function ContactUs(): JSX.Element {
     })
     async function submitForm(e: React.FormEvent<HTMLFormElement>){
         e.preventDefault();
-        console.log(`Contact info submitted!
+        console.log(`Contact information submitted!
             Name: ${contactInfo.name}, 
             Email: ${contactInfo.email}, 
             Message: ${contactInfo.message}`

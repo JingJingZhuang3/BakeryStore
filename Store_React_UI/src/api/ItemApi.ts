@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 
-const myUrl = 'http://localhost:5000/api/Routes/item';
+const myUrl = 'http://localhost:5000/api/store/item';
 
 export const fetchItems = () => axios.get(myUrl);
 

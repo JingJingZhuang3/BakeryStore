@@ -64,7 +64,7 @@ const CreateForm: React.FC<Props> = ({ currentId, setCurrentId }: Props) => {
         onSubmit={(e) => handleSubmit(e)}
       >
         <Typography variant="h6">
-          {currentId ? `Editing "${postData.title}"` : 'Add a Dish'}
+          {currentId ? `Editing "${postData.title}"` : 'Add a Cake:'}
         </Typography>
         <TextField
           name="title"

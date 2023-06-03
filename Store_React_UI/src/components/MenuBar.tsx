@@ -33,7 +33,7 @@ import {
                     component="div"
                     sx={{ pr: 8, display: { xs: "none", sm: "block" }, '&:hover': { color: "orange" } }}
                   >
-                     Bakery Server
+                     Cake Bakery Server
                   </Typography>
                 </Box>
               </Toolbar>

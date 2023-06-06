@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://jingjingzhuang3.github.io/StoreShop",
+  "homepage": "https://jingjingzhuang3.github.io/BakeryStore",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {

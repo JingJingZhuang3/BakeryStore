@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/StoreShop/static/js/main.eb97bded.js",
-    "index.html": "/StoreShop/index.html",
-    "main.eb97bded.js.map": "/StoreShop/static/js/main.eb97bded.js.map"
+    "main.js": "/BakeryStore/static/js/main.eb97bded.js",
+    "index.html": "/BakeryStore/index.html",
+    "main.eb97bded.js.map": "/BakeryStore/static/js/main.eb97bded.js.map"
   },
   "entrypoints": [
     "static/js/main.eb97bded.js"

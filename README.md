@@ -1,5 +1,5 @@
 # StoreShop Demo Page:
-https://jingjingzhuang3.github.io/StoreShop/
+https://jingjingzhuang3.github.io/BakeryStore/
 
 # UI TOOL: 
 https://mui.com/

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/css/Account.scss"],"names":[],"mappings":"AACA,MACE,UAAA,CACA,WAAA,CACA,iBAAA,CAEF,UACE,UAAA","file":"main.5992e8a0.chunk.css","sourcesContent":["\r\n.icon {\r\n  width: 40px;\r\n  height: 40px;\r\n  text-align: center;\r\n}\r\n.icon img {\r\n  width: 100%;\r\n}\r\n"]}

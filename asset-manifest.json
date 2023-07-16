@@ -1,10 +1,27 @@
 {
   "files": {
-    "main.js": "/BakeryStore/static/js/main.eb97bded.js",
+    "main.css": "/BakeryStore/static/css/main.5992e8a0.chunk.css",
+    "main.js": "/BakeryStore/static/js/main.21271ad6.chunk.js",
+    "main.js.map": "/BakeryStore/static/js/main.21271ad6.chunk.js.map",
+    "runtime-main.js": "/BakeryStore/static/js/runtime-main.ba4d8e65.js",
+    "runtime-main.js.map": "/BakeryStore/static/js/runtime-main.ba4d8e65.js.map",
+    "static/js/2.f1cae518.chunk.js": "/BakeryStore/static/js/2.f1cae518.chunk.js",
+    "static/js/2.f1cae518.chunk.js.map": "/BakeryStore/static/js/2.f1cae518.chunk.js.map",
     "index.html": "/BakeryStore/index.html",
-    "main.eb97bded.js.map": "/BakeryStore/static/js/main.eb97bded.js.map"
+    "static/css/main.5992e8a0.chunk.css.map": "/BakeryStore/static/css/main.5992e8a0.chunk.css.map",
+    "static/js/2.f1cae518.chunk.js.LICENSE.txt": "/BakeryStore/static/js/2.f1cae518.chunk.js.LICENSE.txt",
+    "static/media/cranberryGreen.3aad2f88.jpg": "/BakeryStore/static/media/cranberryGreen.3aad2f88.jpg",
+    "static/media/facebookIcon.cd6d57a8.png": "/BakeryStore/static/media/facebookIcon.cd6d57a8.png",
+    "static/media/flyingnanalogo.c5e45ca3.png": "/BakeryStore/static/media/flyingnanalogo.c5e45ca3.png",
+    "static/media/fnBG.3fdd4bf6.jpeg": "/BakeryStore/static/media/fnBG.3fdd4bf6.jpeg",
+    "static/media/fnBG2.162a0625.webp": "/BakeryStore/static/media/fnBG2.162a0625.webp",
+    "static/media/fnBG3.cdf596c9.jpg": "/BakeryStore/static/media/fnBG3.cdf596c9.jpg",
+    "static/media/googleIcon.12d4fc17.png": "/BakeryStore/static/media/googleIcon.12d4fc17.png"
   },
   "entrypoints": [
-    "static/js/main.eb97bded.js"
+    "static/js/runtime-main.ba4d8e65.js",
+    "static/js/2.f1cae518.chunk.js",
+    "static/css/main.5992e8a0.chunk.css",
+    "static/js/main.21271ad6.chunk.js"
   ]
 }

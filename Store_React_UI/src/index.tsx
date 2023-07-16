@@ -5,10 +5,8 @@ import { mergeStyles } from 'office-ui-fabric-react';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
-import { rootReducers } from './reducers/rootReducers';
-// import { logoutUser, setCurrentUser } from './actions/UserActions';
-// import setAuthToken from './utils/setAuthToken';
-// import jwt_decode from 'jwt-decode';
+import { rootReducers } from './reducers/rootReducer';
+import { Auth0Provider } from '@auth0/auth0-react';
 
 // Inject some global styles
 mergeStyles({
@@ -22,11 +20,20 @@ mergeStyles({
 });
 
 const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
+const domain = "dev-8p9fbskf.us.auth0.com";
+const clientId = "WQAATEKJSAzkBAMBq0h5GevpwCJuFGWt";
+// const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+// const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
 
 ReactDOM.render(
-  //The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
   <Provider store={store}>
-    <App />
+    <Auth0Provider
+      domain={domain ? domain : ""}
+      clientId={clientId ? clientId : ""}
+      redirectUri={window.location.origin}
+    >
+      <App />
+    </Auth0Provider>
   </Provider>,
   document.getElementById('root')
 );

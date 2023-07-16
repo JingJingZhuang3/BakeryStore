@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "FN-client-react",
+      name: "Store_React_UI",
       script: "src/index.tsx",
       exec_interpreter: "node",
       interpreter: "ts-node",
